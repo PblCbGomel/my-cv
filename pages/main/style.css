@@ -288,3 +288,43 @@ nav * {
     line-height: 32px;
     letter-spacing: 0px;
 }
+
+/* Contacts */
+
+.contact-block {
+    flex-wrap: wrap;
+    background-color: #292929;
+}
+
+.contacts {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.linkedIn {
+    background-image: url(../../assets/icons/linked-in.png);
+}
+
+.telegram {
+    background-image: url(../../assets/icons/telegram-page.png);
+}
+
+.discord {
+    background-image: url(../../assets/icons/discord-page.png);
+}
+
+.git {
+    background-image: url(../../assets/icons/github-page.png);
+}
