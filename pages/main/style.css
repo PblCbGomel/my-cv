@@ -109,7 +109,7 @@ nav * {
     box-shadow: 0 0 5px black;
 }
 
-/* About me */
+/* About me block */
 
 .about-block {
     flex-wrap: wrap;
@@ -119,4 +119,30 @@ nav * {
 .about-block p {
     font-size: 24px;
     letter-spacing: 2px;
+}
+
+.skills-block {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    background-color: #535353;
+}
+
+/* Skills block */ 
+
+.skills-block ul {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: -10px;
+
+    text-align: center;
+
+    list-style: none;
+}
+
+.skills-block li {
+    margin-bottom: 10px;
+
+    font-size: 24px;
 }
