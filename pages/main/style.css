@@ -121,14 +121,13 @@ nav * {
     letter-spacing: 2px;
 }
 
+/* Skills block */ 
+
 .skills-block {
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     
     background-color: #535353;
 }
-
-/* Skills block */ 
 
 .skills-block ul {
     display: flex;
@@ -145,4 +144,63 @@ nav * {
     margin-bottom: 10px;
 
     font-size: 24px;
+}
+
+/* Courses-block */
+
+.courses-block {
+    flex-direction: column;
+    
+    background-color: #292929;
+}
+
+.courses-block ul {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: -10px;
+
+    text-align: center;
+
+    list-style: none;
+}
+
+.courses-block li {
+    margin-bottom: 10px;
+
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.certificates {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.html-css-certificate, .js-certificate, .itea-certificate, .rss-certificate {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 450px;
+    height: 300px;
+}
+
+.html-css-certificate {
+    background-image: url(../../assets/images/certificates/HTML-CSS-stepik.PNG);
+}
+
+.js-certificate {
+    background-image: url(../../assets/images/certificates/JS-stepik.PNG);
+}
+
+.itea-certificate {
+    background-image: url(../../assets/images/certificates/ITEA.png);
+    width: 280px;
+    height: 450px;
+}
+
+.rss-certificate {
+    background-image: url(../../assets/images/certificates/RSS0.png);
 }
