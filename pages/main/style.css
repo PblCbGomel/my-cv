@@ -21,6 +21,10 @@ header, section {
     border: 1px solid black;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Center-block */
 
 .center-block {
@@ -58,4 +62,46 @@ nav * {
     font-size: 32px;
 
     cursor: pointer;
+}
+
+/*Info block*/
+
+.info-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 50px 30px;
+
+    background-color: #535353;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.info-about-me {
+    font-size: 36px;
+    text-align: center;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+
+.avatar {
+    background-image: url(../../assets/images/avatar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
 }
