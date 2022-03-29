@@ -298,9 +298,11 @@ nav * {
 
 .contacts {
     width: 100%;
-    
+
     display: flex;
     justify-content: space-around;
+
+    padding: 30px 0;
 }
 
 .contact {
@@ -311,6 +313,16 @@ nav * {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.contact:hover {
+    transition: .3s;
+    filter: brightness(85%);
+    box-shadow: 0 0 8px rgb(99, 89, 19);
 }
 
 .linkedIn {
