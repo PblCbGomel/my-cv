@@ -90,12 +90,18 @@ nav div:hover {
     text-shadow: 0 0 12px rgb(218, 190, 34);
 }
 
-.adaptive-nav, .adaptive-nav *, black-adaptive {
+.adaptive-nav, .adaptive-nav *, .black-adaptive {
     width: 0;
     height: 0;
     padding: 0;
     margin: 0;
     visibility: hidden;
+}
+
+.adaptive-nav div a {
+    font-size: 0;
+    letter-spacing: 0;
+    line-height: 0;
 }
 
 /*Info block*/
@@ -377,7 +383,7 @@ footer {
     background-color: #1f1f1f;
 
     padding: 30px 0;
-    width: 100%;
+    max-width: 100%;
 
     font-size: 36px;
 }
