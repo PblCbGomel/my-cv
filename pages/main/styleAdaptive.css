@@ -1,0 +1,260 @@
+@media (max-width: 1220px)  {
+    /* All */
+
+    * {
+        font-size: 14px;
+    }
+
+    /* Center-block */
+
+    .center-block {
+        width: 100%;
+    }
+
+    /* Courses-block */
+
+    .certificates {
+        margin-top: -20px;
+    }
+
+    .certificates div {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px)  {
+
+    /* Header */
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav, nav * {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Adaprive Burger */
+    .adaptive-btn-menu {
+        position: relative;
+        display: block;
+        z-index: 3;
+
+        width: 60px;
+        height: 30px;
+        border-top: 4px solid white;
+        border-bottom: 4px solid white;
+
+        transition: .5s;
+    }
+    
+    .adaptive-btn-menu::before {
+        content: "";
+        position: absolute;
+        z-index: 3;
+
+        top: 13px;
+        left: 0px;
+        width: 100%;
+        border-top: 4px solid #fff;
+
+        transition: .5s;
+    }
+
+    .adaptive-btn-menu-active {
+        position: relative;
+        display: block;
+        z-index: 3;
+
+        width: 60px;
+        height: 30px;
+
+        transition: .5s;
+    }
+
+    .adaptive-btn-menu-active::before {
+        content: "";
+        position: absolute;
+        z-index: 3;
+
+        transform: rotate(45deg);
+
+        width: 100%;
+        border-top: 4px solid #fff;
+        top: 13px;
+
+        background-color: white;
+
+        transition: .5s;
+    }
+
+    .adaptive-btn-menu-active::after {
+        content: "";
+        position: absolute;
+        z-index: 3;
+
+        transform: rotate(-45deg);
+
+        width: 100%;
+        border-top: 4px solid #fff;
+        top: 13px;
+
+        transition: .5s;
+    }
+
+    .adaptive-nav, .adaptive-nav-active {
+        position: absolute;
+        z-index: 2;
+
+        width: 460px;
+        height: 100%;
+        padding: 50px 0 0 40px;
+
+        right: 0;
+        
+        background-color: black;
+
+        color: white;
+        
+        transition: .5s;
+    }
+
+    .adaptive-nav {
+        top: -120%;
+    }
+
+    .adaptive-nav-active {
+        top: 0;
+        margin: 0;
+    }
+
+    .adaptive-nav-active div a {
+        font-size: 48px;
+        line-height: 96px;
+    }
+
+    .black-adaptive, .black-adaptive-active {
+        position: absolute;
+        z-index: 1;
+
+        width: calc(100% - 500px);
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        left: -100%;
+
+        top: 0;
+        
+        transition: .5s;
+    }
+
+    .black-adaptive-active {
+        left: 0;
+    }
+
+    /* Info-block */
+    
+    .avatar {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Projects */
+
+    .project {
+        width: 400px;
+        height: 280px;
+    }
+    
+    .about-project { 
+        opacity: 1;
+    }
+
+    /* Contacts */
+
+    .contacts {
+        padding: 20px 0;
+    }
+
+    .contact {
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+@media (max-width: 500px)  {
+    /* Header */
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .adaptive-nav, .adaptive-nav-active {
+        width: calc(100% - 40px);
+    }
+    
+    .adaptive-nav-active div a {
+        font-size: 32px;
+        line-height: 64px;
+    }
+
+    /* About */
+
+    .about-block p {
+        font-size: 18px;
+    }
+
+    /* Courses-block */
+
+    .courses-block ul {
+        margin-bottom: -15px;
+    }
+
+    .courses-block li {
+        margin-bottom: 15px;
+
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .html-css-certificate, .js-certificate, .itea-certificate, .rss-certificate {
+        width: 260px;
+        height: 160px;
+    }
+
+    .itea-certificate {
+        width: 180px;
+        height: 300px;
+    }
+
+    /* Projects */
+
+    .project {
+        width: 240px;
+        height: 180px;
+    }
+
+    .about-project h3 {
+        font-size: 18px;
+     }
+
+     .about-project p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Contacts */
+
+    .contacts {
+        padding: 10px 0;
+    }
+
+    .contact {
+        width: 60px;
+        height: 60px;
+    }
+}

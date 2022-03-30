@@ -90,6 +90,14 @@ nav div:hover {
     text-shadow: 0 0 12px rgb(218, 190, 34);
 }
 
+.adaptive-nav, .adaptive-nav *, black-adaptive {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+
 /*Info block*/
 
 .info-block {
