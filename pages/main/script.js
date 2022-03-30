@@ -36,7 +36,10 @@ navBlocksAdaptiveMee.forEach((block) => {
     block.addEventListener('click', () => {
         adaptiveNav.classList.toggle('adaptive-nav')
         adaptiveNav.classList.toggle('adaptive-nav-active')
+        blackBlockAdaptive.classList.toggle('black-adaptive')
         blackBlockAdaptive.classList.toggle('black-adaptive-active')
+        burger.classList.toggle('adaptive-btn-menu')
+        burger.classList.toggle('adaptive-btn-menu-active')
     })
 })
 
