@@ -38,6 +38,12 @@
         margin: 0;
     }
 
+    nav div a {
+        font-size: 0;
+        letter-spacing: 0;
+        line-height: 0;
+    }
+
     /* Adaprive Burger */
     .adaptive-btn-menu {
         position: relative;
