@@ -179,6 +179,22 @@ nav div:hover {
     font-size: 24px;
 }
 
+.skills-block li a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1em;
+
+    transition: .3s;
+}
+
+.skills-block li a:hover {
+    transition: .3s;
+    text-decoration: underline;
+    text-shadow: 0 0 12px rgb(218, 190, 34);
+}
+
 /* Courses-block */
 
 .courses-block {
