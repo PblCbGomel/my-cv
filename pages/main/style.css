@@ -391,6 +391,10 @@ nav div:hover {
     background-image: url(../../assets/icons/github-page.png);
 }
 
+.phone {
+    background-image: url(../../assets/icons/tel.png);
+}
+
 /* footer */
 
 footer {
