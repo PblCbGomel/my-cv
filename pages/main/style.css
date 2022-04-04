@@ -179,6 +179,22 @@ nav div:hover {
     font-size: 24px;
 }
 
+.skills-block li a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1em;
+
+    transition: .3s;
+}
+
+.skills-block li a:hover {
+    transition: .3s;
+    text-decoration: underline;
+    text-shadow: 0 0 12px rgb(218, 190, 34);
+}
+
 /* Courses-block */
 
 .courses-block {
@@ -260,9 +276,6 @@ nav div:hover {
     height: 320px;
     margin-bottom: 30px;
     border-radius: 20px;
-}
-
-.tic-tac-toe, .random-jokes, .music-player, .portfolio {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,6 +295,10 @@ nav div:hover {
 
 .portfolio {
     background-image: url(../../assets/images/projects-image/portfolio.PNG);
+}
+
+.shelter {
+    background-image: url(../../assets/images/projects-image/shelter.png);
 }
 
 .about-project {
@@ -372,6 +389,10 @@ nav div:hover {
 
 .git {
     background-image: url(../../assets/icons/github-page.png);
+}
+
+.phone {
+    background-image: url(../../assets/icons/tel.png);
 }
 
 /* footer */
